@@ -1,0 +1,77 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+#about {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+#about img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+#skills {
+    padding: 50px;
+    background-color: #f7f7f7;
+}
+#skills h2 {
+    margin-bottom: 20px;
+}
+#skills ul {
+    list-style-type: none;
+}
+#skills li {
+    margin-bottom: 10px;
+}
+#projects {
+    padding: 50px;
+    background-color: #fff;
+}
+.project {
+    margin-bottom: 30px;
+}
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+#resume {
+    text-align: center;
+    padding: 50px;
+    background-color: #f7f7f7;
+}
+#resume a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+#resume a:hover {
+    text-decoration: underline;
+}
+#contact {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+footer {
+    font-size: 12px;
+    background-color: #333;
+}
+@media (max-width: 768px) {
+    header, footer, section {
+        padding: 20px;
+    }
+}
